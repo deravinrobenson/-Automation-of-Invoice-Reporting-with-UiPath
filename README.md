@@ -1,41 +1,34 @@
-# 🧾 Invoice Reporting Automation with UiPath
+# 🧾 Invoice Reporting Automation with UiPath — Advanced
 
-A Robotic Process Automation (RPA) solution built with UiPath that eliminates manual invoice processing — automatically extracting data, generating reports, and flagging discrepancies.
+An enhanced version of the invoice automation workflow with additional features including multi-format support, advanced error handling, and integration with external accounting systems.
 
 ## 🚀 Overview
 
-This bot handles the full invoice reporting workflow: reading incoming invoices, extracting key data fields, populating reports, and sending summaries to stakeholders — all without human intervention.
+Building on the foundational invoice bot, this advanced version handles more complex scenarios including multi-page invoices, multiple currencies, exception handling, and integration with external platforms.
 
 ## 🛠️ Technologies Used
 
-- UiPath Studio
-- RPA (Robotic Process Automation)
-- Excel / Google Sheets integration
-- PDF data extraction
-- Email automation
+- UiPath Studio (Advanced workflows)
+- RPA — Robotic Process Automation
+- REFramework (Robotic Enterprise Framework)
+- API integrations
+- Excel / accounting software
 
-## ✨ Features
+## ✨ Advanced Features
 
-- Automated invoice data extraction (vendor, amount, date, PO number)
-- Auto-population of reporting spreadsheets
-- Duplicate and discrepancy detection
-- Automated email summaries to finance team
-- Audit trail logging
-
-## 📊 Business Impact
-
-| Task | Manual Time | Automated Time |
-|------|------------|----------------|
-| Invoice data entry | 3 hrs/day | 0 hrs |
-| Report generation | 1 hr/week | Instant |
-| Error rate | ~5% | ~0% |
+- Multi-format invoice processing (PDF, Excel, scanned images)
+- Multi-currency support with live conversion rates
+- REFramework for robust error handling and retry logic
+- Integration with accounting APIs
+- Detailed logging and exception reporting
+- Scalable for high-volume processing
 
 ## 🔧 How to Run
 
 1. Install UiPath Studio
-2. Clone this repository and open the `.xaml` workflow
-3. Configure file paths in `config.json`
-4. Run the bot via UiPath Studio or UiPath Orchestrator
+2. Clone this repository and open the project
+3. Configure `Config.xlsx` with your environment settings
+4. Run via UiPath Studio or deploy to Orchestrator
 
 ## 👤 Author
 
